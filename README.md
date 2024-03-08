@@ -16,5 +16,9 @@ Customers who purchase single-ride or full-day passes are referred to as casual 
 Moreno (Director of Marketing) has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 ### Business Task
 To identify how do annual members and casual riders use Cyclistic differently.
+### Prepare Phase:
+* The dataset used for this project is public data. It consists of monthly files covering the period from January 2022 to December 2022.
+* Each file within the dataset contains 13 columns related to the bike rides.
+* These columns provide detailed information about each ride, including the ride ID, rideable type, start and end station ID’s and locations, coordinates, and membership type.
 
 
