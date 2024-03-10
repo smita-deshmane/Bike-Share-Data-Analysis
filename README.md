@@ -32,8 +32,13 @@ For the data preparation I used Microsoft SQL Server. The data from each month, 
 * To answer the business question, I created a column named "trip_duration" showing the duration of the ride in minutes and "season" for adding the season according to month of the year.
 * I explored the data to see the minimum, average, and maximum ride duration in minutes and hours. I noticed there were negative values in "trip_duration" column, this is an error and needs to be fixed. I removed the rows with negative durations.
 ### Analysis
-For the analysis step, with business question in mind, I performed some summery statistics focusing on the the differece between members and causaul riders. Following are the steps I followed:
-* I started by calculating the total rides for members and causual riders.
+For the analysis step, with business question in mind, I performed some summery statistics focusing on the the differece between members and casual riders. Following are the steps I followed:
+* I started by calculating the total rides for members and casual riders.
+* Then, I analyzed data to see the busiest hour of the day, busiest day of the week, busiest month and season for both members and casual users.
+* I also calculated, on average for how much time members and casual riders ride bike during specific day of the week. 
+* To see preferred rideable type between memebers and casuals I calculated total rides by bike type.
+* Lastly, I went ahead to calculate rides taken by members and causals during specific time of the day, day of week, month and season to anlayze the  trends between them.
+### Data visualization
 
 
 
