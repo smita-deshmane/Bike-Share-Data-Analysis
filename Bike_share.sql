@@ -65,11 +65,7 @@ WHERE  ride_id IS NULL
         OR membership_type IS NULL
 
 -- Checking for duplicate--
-SELECT DISTINCT( ride_id )
-FROM   bike_data
-
-SELECT ride_id,
-       Count(*) AS no_of_rides
+SELECT ride_id, Count(*) AS no_of_rides
 FROM   bike_data
 GROUP  BY ride_id
 HAVING Count(*) > 1
@@ -85,9 +81,8 @@ FROM   bike_data
 --DATA MANIPULATION--
 --Creating a column Trip_Duration for calculating the ride length--
 ALTER TABLE bike_data
-  ADD [trip_duration]
+  ADD [trip_duration] AS Datediff (minute, started_time, ended_time) persisted
 
-AS Datediff (minute, started_time, ended_time) persisted
 --Checking the min and max and avg of ride duration--
 SELECT Min(trip_duration) AS min_trip_duration,
        Max(trip_duration) AS max_trip_duration,
