@@ -21,15 +21,19 @@ To identify how do annual members and casual riders use Cyclistic differently.
 * Each file within the dataset contains 13 columns each with 100,000 to 750,000 rows related to the bike rides.
 * These columns provide detailed information about each ride, including the ride ID, rideable type, start and end station ID’s and locations, coordinates, and membership type.
 #### Data Preparation
-Data preparation was performed in Microsoft SQL Server. The data from each month, spanning from January to December 2022, was imported and merged into a single table called “bike_data”.The steps involved in this process are as follows:
+For the data preparation I used Microsoft SQL Server. The data from each month, spanning from January to December 2022, was imported and merged into a single table called “bike_data”.The steps involved in this process are as follows:
 
-* Importing Data: The monthly .cvs files containing the ride data were imported into SQL Server.
-* Merging Data: A new table named “bike_data” was created to store the consolidated data for the entire year.The data from tables were merged using the UNION ALL statement. While merging the data, columns which were needed for the analysis were selected (ride_id, rideable_type, started_at, ended_at, member_casual) and all the other columns were excluded. Also, additional colums were created which are needed for the analysis like seperating date and time from "started_at" column, also used DATEPART and FORMAT functions to get the necessary values like "Month", "Weekday", "MonthNum" from the date value.
+* Importing Data: I imported all the .cvs files containing the ride data into SQL Server.
+* Merging Data: After importing the files, I merged the all 12 .csv files into single sql table called “bike_data”. The data from tables were merged using the UNION ALL statement. While merging the data, columns which were needed for the analysis were selected (ride_id, rideable_type, started_at, ended_at, member_casual) and all the other columns were excluded. Also, additional colums were created which are needed for the analysis like seperating date and time from "started_at" column, also used DATEPART and FORMAT functions to get the necessary values like "Month", "Weekday", "MonthNum".
 #### Cleaning and Manipulation
 * I checked for duplicates and there were none. All ride_id were all unique.
-* Then, I looked at the bike types (rideable_type) and user type (member_casual) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency was detected.
+* Then, I looked at the bike types (rideable_type) and user type (membership_type) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency was detected.
 * The member_casual column has only values: member and casual. There were no changes made to the column.
-* To answer the business question, I created a column named "Ride_length" showing the duration of the ride in minutes and "Season" for adding the season according to month of the year.
-* I explored the data to see the minimum, average, and maximum ride duration in minutes and hours. I noticed there were negative duration, columns where the ride ending time was greater than the starting time. This is an error and needs to be fixed. I removed the rows with negative durations.
+* To answer the business question, I created a column named "trip_duration" showing the duration of the ride in minutes and "season" for adding the season according to month of the year.
+* I explored the data to see the minimum, average, and maximum ride duration in minutes and hours. I noticed there were negative values in "trip_duration" column, this is an error and needs to be fixed. I removed the rows with negative durations.
+### Analysis
+For the analysis step, with business question in mind, I performed some summery statistics focusing on the the differece between members and causaul riders. Following are the steps I followed:
+* I started by calculating the total rides for members and causual riders.
+
 
 
