@@ -65,6 +65,12 @@ On average, casual riders have significantly longer ride durations compared to a
 
 ![Trip Duration in Weekday ](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/45002335-1568-4581-8573-ac75b951af8f)
 
+#### 5. Frequency of Rides per Hour
+The line graph illustrates distinct variations in the frequency of rides per hour for both annual members and casual riders. Notably, both rider type experience peak usage at 17:00 (5 p.m.), with annual members recording 273,000 rides and casual riders with 167,000 rides during that hour.
+
+![No of Rides during Weekday by Membership Type (2)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/08a7e622-5360-4fa1-82ff-7fdff942204b)
+
+
 
 
 
