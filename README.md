@@ -49,29 +49,29 @@ You can find the interactive version of dashboard I created for this project on 
 Annual members accounted for the majority of the rides, representing 59.03% of the total whereas casual riders are 40.97% of total rides.
 
 ![Total Rides (2) (2)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/4debdd7d-5edd-4830-ac06-6b8611c17055)
-#### 2. Number of Rides taken during weekday by Members and Casual Riders
+#### 2. Number of Rides taken per day by Members and Casual Riders
 The analysis of the number of rides per day reveals interesting patterns. From Monday to Friday, annual members consistently have a higher count of rides compared to casual riders. However, on weekends (Saturday and Sunday), casual riders exhibit the highest usage, surpassing the number of rides by annual members.
 
 
 ![No of Rides during Weekday by Membership Type (2) (1)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/56aa67ac-4516-4d78-9e1d-8db9fbe5ff32)
 
 #### 3. Number of Rides taken per Month by Members and Casual Riders
-This analysis reveals that annual members consistently have a higher number of rides compared to casual riders in all months. In February, annual members accounted for the highest proportion of rides, reaching approximately 82.93%. On the other hand, casual riders had the highest proportion of rides in July, comprising nearly 48.59% of the total rides.
+This analysis reveals that annual members consistently have a higher number of rides compared to casual riders in all months. Both annual members and casual riders have the highest proportion of rides in the months June and July. The freqency of rides significantly going down for both members and casuals in the months of January and February.
 
 ![Number of Rides by Month and Membership Type](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/be16e97b-c4db-40da-9ad8-0bca12f1111c)
 
-#### 4. Average Ride Duration by Day (in minutes)
-On average, casual riders have significantly longer ride durations compared to annual members.
+#### 4. Average Ride Duration(in minutes) per day for Members and Casual Riders 
+On average, casual riders have significantly longer ride durations compared to annual members. Members tend to have consistent rides throught the week, whereas, casual users tend to drive for longer periods over the weenkend.
 
 ![Trip Duration in Weekday ](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/45002335-1568-4581-8573-ac75b951af8f)
 
-#### 5. Frequency of Rides per Hour
-The line graph illustrates distinct variations in the frequency of rides per hour for both annual members and casual riders. Notably, both rider type experience peak usage at 17:00 (5 p.m.), with annual members recording 273,000 rides and casual riders with 167,000 rides during that hour.
+#### 5. Frequency of Rides per Hour for Members and Casual Riders
+The line graph illustrates distinct variations in the frequency of rides per hour for both annual members and casual riders. Both rider type experience peak usage at 5pm. Members showing peak hour in the morning at 8am as well. 
 
 ![Rides Started per Hour](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/d95f8607-4f17-4092-8a1a-b64c014d09c6)
 
 #### 6. Number of Rides per Season
-Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winters, annual members have the highest proportion, accounting for approximately 78.99% of the total rides. On the other hand, casual riders have the highest proportion of rides during summers, comprising around 46.86% of the total rides.
+Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winters, annual members have the highest proportion of rides as compared to casual riders. On the other hand, casual riders have the highest proportion of rides during summers making it equivalent to annual members. 
 
 
 ![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/2269d49d-3599-4810-b8a4-6984920c6e06)
@@ -83,7 +83,7 @@ Overall, annual members consistently have the highest proportion of rides in all
 Members have a relatively consistent average ride length throughout the week
 * The Busiest day of the week is Saturday for both member and casual
 * Afternoon is the Busiest time with members having more rides
-* 5AM is the busiest hour for member and casual ,and 8 AM is also busiest time for member
+* 5AM is the busiest hour for member and casual and 8 AM is also busiest time for member
 * September has the most of the rides compared to the other two month for both member and casual
 * Member riders use bike equally throughout the week for daily commuting
 Saturday and Sunday have the most rides for casual and on Wednesday member have the most rides
