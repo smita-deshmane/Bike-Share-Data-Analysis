@@ -48,7 +48,7 @@ You can find the interactive version of dashboard I created for this project on 
 #### 1. Percentage of Casual Riders and Annual Members
 Annual members accounted for the majority of the rides, representing 59.35% of the total whereas casual riders are 40.97% of total rides.
 
-![Total Rides (2)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/1ba203f2-0e01-4b87-b461-4f8339acabaa)
+![Total Rides (2) (2)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/4debdd7d-5edd-4830-ac06-6b8611c17055)
 
 
 
