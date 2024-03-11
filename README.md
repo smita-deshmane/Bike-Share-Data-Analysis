@@ -55,6 +55,16 @@ The analysis of the number of rides per day reveals interesting patterns. From M
 
 ![No of Rides during Weekday by Membership Type (2) (1)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/56aa67ac-4516-4d78-9e1d-8db9fbe5ff32)
 
+#### 3. Number of Rides taken per Month by Members and Casual Riders
+This analysis reveals that annual members consistently have a higher number of rides compared to casual riders in all months. In February, annual members accounted for the highest proportion of rides, reaching approximately 82.93%. On the other hand, casual riders had the highest proportion of rides in July, comprising nearly 48.59% of the total rides.
+
+![Number of Rides by Month and Membership Type](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/be16e97b-c4db-40da-9ad8-0bca12f1111c)
+
+#### 4. Average Ride Duration by Day (in minutes)
+On average, casual riders have significantly longer ride durations compared to annual members.
+
+![Trip Duration in Weekday ](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/45002335-1568-4581-8573-ac75b951af8f)
+
 
 
 
