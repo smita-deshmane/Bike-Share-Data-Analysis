@@ -74,7 +74,7 @@ The line graph illustrates distinct variations in the frequency of rides per hou
 Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winters, annual members have the highest proportion, accounting for approximately 78.99% of the total rides. On the other hand, casual riders have the highest proportion of rides during summers, comprising around 46.86% of the total rides.
 
 
-![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/7e8f561d-aecf-4063-af66-3e5e260817a9)
+![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/2269d49d-3599-4810-b8a4-6984920c6e06)
 
 
 
