@@ -70,6 +70,13 @@ The line graph illustrates distinct variations in the frequency of rides per hou
 
 ![Rides Started per Hour](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/d95f8607-4f17-4092-8a1a-b64c014d09c6)
 
+#### 6. Number of Rides per Season
+Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winters, annual members have the highest proportion, accounting for approximately 78.99% of the total rides. On the other hand, casual riders have the highest proportion of rides during summers, comprising around 46.86% of the total rides.
+
+
+![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/7e8f561d-aecf-4063-af66-3e5e260817a9)
+
+
 
 
 
