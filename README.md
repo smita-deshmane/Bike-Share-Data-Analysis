@@ -49,6 +49,12 @@ You can find the interactive version of dashboard I created for this project on 
 Annual members accounted for the majority of the rides, representing 59.03% of the total whereas casual riders are 40.97% of total rides.
 
 ![Total Rides (2) (2)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/4debdd7d-5edd-4830-ac06-6b8611c17055)
+#### 2. Number of Rides taken during weekday by Members and Casual Riders
+The analysis of the number of rides per day reveals interesting patterns. From Monday to Friday, annual members consistently have a higher count of rides compared to casual riders. However, on weekends (Saturday and Sunday), casual riders exhibit the highest usage, surpassing the number of rides by annual members.
+
+
+![No of Rides during Weekday by Membership Type (2) (1)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/56aa67ac-4516-4d78-9e1d-8db9fbe5ff32)
+
 
 
 
