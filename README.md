@@ -39,6 +39,10 @@ For the analysis step, with business question in mind, I performed some summery 
 * To see preferred rideable type between memebers and casuals I calculated total rides by bike type.
 * Lastly, I went ahead to calculate rides taken by members and causals during specific time of the day, day of week, month and season to anlayze the  trends between them.
 ### Data visualization
+With the help of Tableau, I generated visuals from the data to make complex concepts and numbers easier to see and understand.
+In the share phase, we’ll interpret the results of our analysis and share our key findings and recommendations to help stakeholders make data-driven decisions.
+You can find the interactive version of dashboard I created for this project on Tableau [here](https://public.tableau.com/app/profile/smita.deshmane4857/viz/CyclisticBikeshareDataAnalysis_17055498717670/CyclisticBIkesharedashboard)
 
+![Cyclistic BIke share dashboard](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/85e3fe9e-9200-4352-83d2-2cbd8d401683)
 
 
