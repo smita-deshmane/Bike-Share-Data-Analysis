@@ -77,7 +77,7 @@ Overall, annual members consistently have the highest proportion of rides in all
 ![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/2269d49d-3599-4810-b8a4-6984920c6e06)
 
 ### Act Phase:
-Key Findings:
+#### Key Findings
 
 * The Weekends have the longest Average ride length for casual while
 Members have a relatively consistent average ride length throughout the week
@@ -87,3 +87,11 @@ Members have a relatively consistent average ride length throughout the week
 * September has the most of the rides compared to the other two month for both member and casual
 * Member riders use bike equally throughout the week for daily commuting
 Saturday and Sunday have the most rides for casual and on Wednesday member have the most rides
+
+#### Recommendation
+
+Explore Weekend Discounts- Offer exclusive discounts on weekends and extended rides, aiming to convert casual riders into members who can benefit from significant cost savings.
+Waterfront Wonder Promotion: Promote the campaign at the bike station located by the waterfront, a favorite among casual riders, highlighting the advantages of membership.
+Advertise to casuals the benefits of using cyclistic long term as a mode of transport for everyday activities and not as a leisure activity. Keep track of casuals who are renewing trips for multiple days and advertise to them the cost saving of having an annual plan for longer trips
+
+Thank you.
