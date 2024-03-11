@@ -79,14 +79,13 @@ Overall, annual members consistently have the highest proportion of rides in all
 ### Act Phase:
 #### Key Findings
 
-* The Weekends have the longest Average ride length for casual while
-Members have a relatively consistent average ride length throughout the week
+* The Weekends have the longest Average ride length for casual while Members have a relatively consistent average ride length throughout the week
 * The Busiest day of the week is Saturday for both member and casual
 * Afternoon is the Busiest time with members having more rides
 * 5AM is the busiest hour for member and casual and 8 AM is also busiest time for member
 * September has the most of the rides compared to the other two month for both member and casual
-* Member riders use bike equally throughout the week for daily commuting
-Saturday and Sunday have the most rides for casual and on Wednesday member have the most rides
+* Member riders use bike equally throughout the week
+Saturday and Sunday have the most rides for casuals whereas Wednesday and Thursday  for members
 
 #### Recommendation
 
