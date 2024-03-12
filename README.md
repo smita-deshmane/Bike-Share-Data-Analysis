@@ -38,14 +38,12 @@ For the data preparation, I used Microsoft SQL Server. The data from each month,
 
 
 #### Cleaning and Manipulation
-* I checked for duplicates and there were none. All ride_id were all unique.
-* Then, I looked at the bike types (rideable_type) and user type (membership_type) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency was detected.
-
+While cleaning the data, following steps were taken: 
+* First, I checked for duplicates and there were none.
+* Then, I looked at the bike types (rideable_type) and user type (membership_type) to detect any inconsistencies with the string data. No inconsistencies found.
 * The member_casual column has only values: member and casual. There were no changes made to the column.
-
 * To answer the business question, I created a column named "trip_duration" showing the duration of the ride in minutes and "season" for adding the season according to the month of the year.
-
-* I explored the data to see the minimum, average, and maximum ride duration. I noticed there were negative values in the "trip_duration" column, this is an error and needs to be fixed. I removed the rows with negative durations.
+* I explored the data to see the minimum, average, and maximum ride duration. I noticed there were negative values in the "trip_duration" column, I removed the rows with negative durations.
 
 ### Analysis
 
@@ -82,23 +80,30 @@ The analysis of the number of rides per day reveals interesting patterns. From M
 ![No of Rides during Weekday by Membership Type (2) (1)](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/56aa67ac-4516-4d78-9e1d-8db9fbe5ff32)
 
 #### 3. Number of Rides taken per Month by Members and Casual Riders
-This analysis reveals that annual members consistently have a higher number of rides compared to casual riders in all months. Both annual members and casual riders have the highest proportion of rides in the months June and July. The freqency of rides significantly going down for both members and casuals in the months of January and February.
+This analysis reveals that annual members consistently have a higher number of rides compared to casual riders in all months. Both annual members and casual riders have the highest proportion of rides in June and July. The frequency of rides significantly went down for both members and casuals in January and February.
+
 
 ![Number of Rides by Month and Membership Type](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/be16e97b-c4db-40da-9ad8-0bca12f1111c)
 
+
+
 #### 4. Average Ride Duration(in minutes) per day for Members and Casual Riders 
-On average, casual riders have significantly longer ride durations compared to annual members. Members tend to have consistent rides throught the week, whereas, casual users tend to drive for longer periods over the weenkend.
+
+On average, casual riders have significantly longer ride durations compared to annual members. Members tend to have consistent rides throughout the week, whereas, casual users tend to drive for longer periods over the weekend.
 
 ![Trip Duration in Weekday ](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/45002335-1568-4581-8573-ac75b951af8f)
 
 #### 5. Frequency of Rides per Hour for Members and Casual Riders
-The line graph illustrates variations in the frequency of rides per hour for both annual members and casual riders. Both rider type experience peak usage at 5pm. Members showing peak hour in the morning at 8am as well. 
+The line graph illustrates variations in the frequency of rides per hour for both annual members and casual riders. Both rider types experience peak usage at 5 pm. Members showing peak hour at 8 am as well. 
+
 
 ![Rides Started per Hour](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/d95f8607-4f17-4092-8a1a-b64c014d09c6)
 
-#### 6. Number of Rides per Season
-Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winters, annual members have the highest proportion of rides as compared to casual riders. On the other hand, casual riders have the highest proportion of rides during summers making it equivalent to annual members. 
 
+
+#### 6. Number of Rides per Season
+
+Overall, annual members consistently have the highest proportion of rides in all seasons compared to casual riders. However, during winter, annual members have the highest proportion of rides as compared to casual riders. On the other hand, casual riders have the highest proportion of rides during summers making it equivalent to annual members. 
 
 ![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/2269d49d-3599-4810-b8a4-6984920c6e06)
 
