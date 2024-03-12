@@ -1,4 +1,4 @@
-# Case study: How does a bike-share company navigate speedy success
+# Case study:  Cyclistic Bike Share Analysis - Differentiating Casual Riders and Annual Members
 Author: Smita Deshmane
 ### Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 ### Visualization
@@ -16,6 +16,7 @@ Customers who purchase single-ride or full-day passes are referred to as casual 
 Moreno (Director of Marketing) has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
 ### Business Task
 To identify how do annual members and casual riders use Cyclistic differently.
+To find ways to convert casual riders into anuual members  
 ### Data Preparation and Cleaning
 * The dataset used for this project is downloaded from the public data. It consists of monthly files covering the period from January 2022 to December 2022.
 * Each file within the dataset contains 13 columns each with 100,000 to 750,000 rows related to the bike rides.
@@ -76,21 +77,20 @@ Overall, annual members consistently have the highest proportion of rides in all
 
 ![Sheet 8](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/2269d49d-3599-4810-b8a4-6984920c6e06)
 
-### Act Phase:
+### Act Phase
 #### Key Findings
 
-* The Weekends have the longest Average ride length for casual while Members have a relatively consistent average ride length throughout the week
-* The Busiest day of the week is Saturday for both member and casual
-* Afternoon is the Busiest time with members having more rides
-* 5AM is the busiest hour for member and casual and 8 AM is also busiest time for member
-* September has the most of the rides compared to the other two month for both member and casual
-* Member riders use bike equally throughout the week
-Saturday and Sunday have the most rides for casuals whereas Wednesday and Thursday  for members
+* Members preffered riding the bike on weekdays, whereas casual riders are more likely to ride on weekends
+* Members demontrate peak usage at 8 am in the morining and 5 pm in the afternoon, whereas casual showing peak usage only at 5 pm
+* Members has peak usage overall on Thursdays, and casual riders has peak usage on Saturdays
+* Casual riders preffered taking long-duration rides with highest on weekend, whereas members preffered shorter rides consistently during the week
+* Both memebers and casuals are more likely to ride in the summer months, with July being the most popular time to ride bikes
+* With change in weather, the bike usage between members and casual riders has significatly lowered in January and February
 
-#### Recommendation
+#### Strategies to convert more Casual Riders into Annual Member 
+* Since casual riders preffered riding the bike in the summer season and over the weekend, offer a membership plan that will provide discounts in the months of summer and weekends 
+* If we consider annual members used bike for daily communiting, running a marketing campaign how riding the bike to work is healthy, cost effective and environmental friendly will be helpful  to convince casuals to buy annual membership
+* Also, casual riders preffered taking longer rides, making a membership plan that will allow longer rides over the weekends will help convert casual riders into annual members
 
-Explore Weekend Discounts- Offer exclusive discounts on weekends and extended rides, aiming to convert casual riders into members who can benefit from significant cost savings.
-Waterfront Wonder Promotion: Promote the campaign at the bike station located by the waterfront, a favorite among casual riders, highlighting the advantages of membership.
-Advertise to casuals the benefits of using cyclistic long term as a mode of transport for everyday activities and not as a leisure activity. Keep track of casuals who are renewing trips for multiple days and advertise to them the cost saving of having an annual plan for longer trips
 
 Thank you.
