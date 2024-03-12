@@ -21,19 +21,14 @@ Moreno (Director of Marketing) has set a clear goal: Design marketing strategies
 ### Data Preparation and Cleaning
 
 * The dataset used for this project is downloaded from the public data. It consists of monthly files covering the period from January 2022 to December 2022.
-
 * Each file within the dataset contains 13 columns each with 100,000 to 750,000 rows related to the bike rides.
-
 * These columns provide detailed information about each ride, including the ride ID, rideable type, start and end station ID’s and locations, coordinates, and membership type.
 
 #### Data Preparation
 
 For the data preparation, I used Microsoft SQL Server. The data from each month, spanning from January to December 2022, was imported and merged into a single table called “bike_data”.The steps involved in this process are as follows:
 
-
-
 * Importing Data: I imported all the .cvs files containing the ride data into SQL Server.
-
 * Merging Data: After importing the files, I merged all 12 .csv files into a single SQL table called “bike_data”. The data from the tables were merged using the UNION ALL statement. While merging the data, columns that were needed for the analysis were selected (ride_id, rideable_type, started_at, ended_at, member_casual) and all the other columns were excluded. Also, additional columns were created which are needed for the analysis like separating date and time from the "started_at" column, also used DATEPART and FORMAT functions to get the necessary values like "Month", "Weekday", and "MonthNum".
 
 
@@ -50,13 +45,9 @@ While cleaning the data, following steps were taken:
 For the analysis step, with a business question in mind, I performed some summary statistics focusing on the difference between members and casual riders. Following are the steps I followed:
 
 * I started by calculating the total rides for members and casual riders.
-
 * Then, I analyzed total rides data to see the busiest hour of the day, busiest day of the week, busiest month, and season.
-
 * I also calculated, on average how much time members and casual riders ride bikes during specific days of the week. 
-
 * To see the preferred rideable type between members and casuals, I calculated total rides by bike type.
-
 * Lastly, I went ahead to calculate rides taken by members and causals during specific times of the day, days of the week, months, and seasons to analyze the trends between them.
 
 ### Data visualization
