@@ -2,7 +2,7 @@
 Author: Smita Deshmane
 ### Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 ### Visualization
-Tableau: [Cyclistic Dashboard]([https://public.tableau.com/app/profile/smita.deshmane4857/viz/CyclisticBikeshareDataAnalysis_17055498717670/Bike-ShareAnalysis#1](https://public.tableau.com/app/profile/smita.deshmane4857/viz/CyclisticBikeshareDataAnalysis_17055498717670/CyclisticBIkesharedashboard))
+Tableau: [Cyclistic Dashboard](https://public.tableau.com/app/profile/smita.deshmane4857/viz/CyclisticBikeshareDataAnalysis_17055498717670/CyclisticBIkesharedashboard)
 ### Tools used in Analysis
 * Data Cleaning: Microsoft Excel   
 * Data Analysis: Microsft SQL Server   
