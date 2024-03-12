@@ -24,19 +24,19 @@ To identify how do annual members and casual riders use Cyclistic differently.
 For the data preparation I used Microsoft SQL Server. The data from each month, spanning from January to December 2022, was imported and merged into a single table called “bike_data”.The steps involved in this process are as follows:
 
 * Importing Data: I imported all the .cvs files containing the ride data into SQL Server.
-* Merging Data: After importing the files, I merged the all 12 .csv files into single sql table called “bike_data”. The data from tables were merged using the UNION ALL statement. While merging the data, columns which were needed for the analysis were selected (ride_id, rideable_type, started_at, ended_at, member_casual) and all the other columns were excluded. Also, additional colums were created which are needed for the analysis like seperating date and time from "started_at" column, also used DATEPART and FORMAT functions to get the necessary values like "Month", "Weekday", "MonthNum".
+* Merging Data: After importing the files, I merged all 12 .csv files into single sql table called “bike_data”. The data from tables were merged using the UNION ALL statement. While merging the data, columns which were needed for the analysis were selected (ride_id, rideable_type, started_at, ended_at, member_casual) and all the other columns were excluded. Also, additional colums were created which are needed for the analysis like seperating date and time from "started_at" column, also used DATEPART and FORMAT functions to get the necessary values like "Month", "Weekday", "MonthNum".
 #### Cleaning and Manipulation
 * I checked for duplicates and there were none. All ride_id were all unique.
 * Then, I looked at the bike types (rideable_type) and user type (membership_type) to check for distinct values, spelling errors, and trailing or leading space. No inconsistency was detected.
 * The member_casual column has only values: member and casual. There were no changes made to the column.
 * To answer the business question, I created a column named "trip_duration" showing the duration of the ride in minutes and "season" for adding the season according to month of the year.
-* I explored the data to see the minimum, average, and maximum ride duration in minutes and hours. I noticed there were negative values in "trip_duration" column, this is an error and needs to be fixed. I removed the rows with negative durations.
+* I explored the data to see the minimum, average, and maximum ride duration. I noticed there were negative values in "trip_duration" column, this is an error and needs to be fixed. I removed the rows with negative durations.
 ### Analysis
 For the analysis step, with business question in mind, I performed some summery statistics focusing on the the differece between members and casual riders. Following are the steps I followed:
 * I started by calculating the total rides for members and casual riders.
-* Then, I analyzed data to see the busiest hour of the day, busiest day of the week, busiest month and season for both members and casual users.
+* Then, I analyzed total rides data to see the busiest hour of the day, busiest day of the week, busiest month and season.
 * I also calculated, on average for how much time members and casual riders ride bike during specific day of the week. 
-* To see preferred rideable type between memebers and casuals I calculated total rides by bike type.
+* To see preferred rideable type between memebers and casuals, I calculated total rides by bike type.
 * Lastly, I went ahead to calculate rides taken by members and causals during specific time of the day, day of week, month and season to anlayze the  trends between them.
 ### Data visualization
 With the help of Tableau, I generated visuals from the data to make complex concepts and numbers easier to see and understand.
@@ -66,7 +66,7 @@ On average, casual riders have significantly longer ride durations compared to a
 ![Trip Duration in Weekday ](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/45002335-1568-4581-8573-ac75b951af8f)
 
 #### 5. Frequency of Rides per Hour for Members and Casual Riders
-The line graph illustrates distinct variations in the frequency of rides per hour for both annual members and casual riders. Both rider type experience peak usage at 5pm. Members showing peak hour in the morning at 8am as well. 
+The line graph illustrates variations in the frequency of rides per hour for both annual members and casual riders. Both rider type experience peak usage at 5pm. Members showing peak hour in the morning at 8am as well. 
 
 ![Rides Started per Hour](https://github.com/smita-deshmane/Bike-Share-Data-Analysis/assets/127545460/d95f8607-4f17-4092-8a1a-b64c014d09c6)
 
